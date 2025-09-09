@@ -8,28 +8,94 @@ The project explores customer loan applications and analyzes factors such as gen
 
 **Workflow**
 
-- Data Preprocessing
+Data Preprocessing
 
-- Exploratory Data Analysis (EDA)
+- Handle missing values
 
-- Feature Engineering: 
-
-- Model Training
-
-- Model Evaluation
-
-**Tools Used**
-Python
-
-Pandas, NumPy
-
-Matplotlib, Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
+- Encode categorical variables (Label Encoding / One-Hot Encoding)
 
 
-**Results**
+Exploratory Data Analysis (EDA)
 
-The notebook demonstrates how different machine learning models perform on predicting loan approvals. Metrics such as accuracy, precision, recall, and F1-score are used for evaluation.
+ - Distribution of approved vs. rejected loans
+
+- Loan approval trends by gender, marital status, income levels, and credit history
+
+- Correlation analysis between features
+
+Feature Engineering
+
+- Combine income features (Total Income)
+
+- Avoid outlier by transforming some features into log-normal transformation
+
+
+Model Training
+
+- Logistic Regression
+
+- Decision Tree Classifier
+
+- Random Forest Classifier
+
+- Support Vector Machine (SVM)
+
+- XGBoost
+  
+- KNN
+
+Model Evaluation
+
+- Accuracy
+
+-  Classification Report (Precision, Recall, F1-Score)
+
+ - Confusion Matrix
+
+Tech Stack
+
+- Programming Language: Python
+
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
+- Environment: Jupyter Notebook
+
+How to Run
+
+Clone this repository:
+
+git clone https://github.com/your-username/loan_approval_project.git
+cd loan_approval_project
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Open the Jupyter Notebook:
+
+jupyter notebook loan_approval_project.ipynb
+
+
+Run all cells to reproduce results.
+
+📈 Results
+
+Key Finding: Credit history and applicant income were the most influential features.
+
+Best Model: Random Forest Classifier achieved the highest accuracy.
+
+Performance Metrics:
+
+Accuracy: ~79% 
+
+Precision, Recall, and F1-score reported for comparison across models.
+
+Sample Visuals
+
+- Loan approval rate by gender and marital status
+
+- Income distribution of approved vs. rejected applicants
+
+- Feature importance chart from Random Forest
