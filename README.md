@@ -60,27 +60,9 @@ Tech Stack
 
 - Environment: Jupyter Notebook
 
-How to Run
-
-Clone this repository:
-
--- git clone https://github.com/your-username/loan_approval_project.git
--- cd loan_approval_project
-
-
-Install dependencies:
-
--- pip install -r requirements.txt
-
-
-Open the Jupyter Notebook:
-
-jupyter notebook -- loan_approval_project.ipynb
-
-
 Run all cells to reproduce results.
 
-📈 Results
+Results
 
 Key Finding: Credit history and applicant income were the most influential features.
 
@@ -99,5 +81,6 @@ Sample Visuals
 - Income distribution of approved vs. rejected applicants
 
 - Feature importance chart from Random Forest
+
 
 
