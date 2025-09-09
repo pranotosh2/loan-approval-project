@@ -64,18 +64,18 @@ How to Run
 
 Clone this repository:
 
-- git clone https://github.com/your-username/loan_approval_project.git
-- cd loan_approval_project
+-- git clone https://github.com/your-username/loan_approval_project.git
+-- cd loan_approval_project
 
 
 Install dependencies:
 
-- pip install -r requirements.txt
+-- pip install -r requirements.txt
 
 
 Open the Jupyter Notebook:
 
-jupyter notebook loan_approval_project.ipynb
+jupyter notebook -- loan_approval_project.ipynb
 
 
 Run all cells to reproduce results.
@@ -99,4 +99,5 @@ Sample Visuals
 - Income distribution of approved vs. rejected applicants
 
 - Feature importance chart from Random Forest
+
 
